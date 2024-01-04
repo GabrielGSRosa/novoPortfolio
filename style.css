@@ -225,6 +225,7 @@ button {
     color: var(--white-400);
     text-align: center;
     font-size: 48px;
+    margin-top: 25px;
     padding-bottom: 38px;
 }
 
@@ -302,7 +303,7 @@ button {
 
 .tituloProjetos {
     color: var(--white-400);
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 .tituloProjetos h1{
@@ -339,13 +340,17 @@ button {
 
 .card h1 {
     margin-bottom: 30px;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .card img {
     width: 220px;
     height: 200px;
     margin: 0 auto 20px;
+}
+
+#btn-projects-01 {
+    margin-top: 52px;
 }
 
 .card p {
