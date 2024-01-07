@@ -66,7 +66,7 @@ button {
     justify-content: center;
 }
 
-.nav {
+nav {
     background-color: var(--white-400);
     width: 140vh;
     height: 50px;
@@ -212,7 +212,7 @@ button {
 
 .analysis {
     border-top: 3px solid var(--white-400);
-    margin: 40px auto 60px;
+    margin: 40px auto 24px;
 }
 
 /* .bar {
@@ -456,6 +456,10 @@ button {
         flex-direction: column;
     }
 
+    nav {
+        width: auto;
+    }
+
     .bkPrincipal {
         width: 90vw;
     }
@@ -494,6 +498,8 @@ button {
     .missionMobile {
         display: block;
         margin: 20px 0 20px 0px;
+        width: 95%;
+        text-align: center;
     }
 
     .missionMobile span {
