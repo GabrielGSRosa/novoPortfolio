@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
+
+:root{
+    --black-400: #191A1E;
+    --black-300: #292B33;
+    --white-400: #FEFEFF;
+    --bkg-color: #5b49af;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--black-300);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bkPrincipal {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+    z-index: -10;
+}
+
+
+.buttonHome a{
+    color: black;
+}
+
+a {
+    font-style: none;
+    color: var(--white-400);
+}
+
+.bkPrincipal {
+    position: fixed;
+    width: 100%;
+    opacity: 50%;
+    z-index: -10;
+}
+
+button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--bkg-color); /* Cor do "ponteiro" da barra de rolagem */
+    border-radius: 6px; /* Cantos arredondados do "ponteiro" */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--black-300); /* Cor da área da barra de rolagem */
+  }
+
+.primary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: none;
+}
+
+.buttonsBar {
+    margin: 10px; /* Reduz a margem para evitar que a barra fique muito espaçada */
+}
+
+.buttonsBar button:nth-child(4) {
+    margin-left: 20px; /* Reduza a margem para o botão "Curriculo" */
+}
+
+
+
+::before {
+    margin: 10px;
+    /* width: 200px; */
+}
+
+#home {
+    color: black;
+    z-index: 5000000;
+}
+
+.buttonsBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 36px;
+}
+
+.buttonsBar button {
+    margin: 7px;
+}
+
+.buttonsBar button:hover {
+    color: #755FD2;
+}
+
+.buttonsBar button:nth-child(4) {
+    color: var(--white-400);
+    background-color: #755FD2;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.buttonsBar button:nth-child(4):hover {
+    background-color: #5b49af;
+}
+
+/* Projetos */
+
+.projetos {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloProjetos {
+    color: var(--white-400);
+    margin: 25px auto;
+}
+
+.tituloProjetos h1{
+    font-size: 48px;
+}
+
+.projectsContainer {
+    margin: 20px 20px 70px; /* Espaçamento entre containers */
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinhamento central vertical */
+    text-align: center;
+    justify-content: space-between;
+    background-color: #5c49afb1;
+    color: white;
+    width: 10rem;
+    height: 14rem;
+    border-radius: 4%;
+    margin-top: 16px;
+}
+
+.card .titleP1 {
+    margin: 10px auto 7px;
+}
+
+
+.card h1 {
+    margin-bottom: 10px; /* Espaçamento inferior para o título */
+}
+
+.card p {
+    margin-bottom: 15px; /* Espaçamento inferior para o parágrafo */
+}
+
+.card button {
+    padding: auto;
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #5c49afb1; /* Cor do texto do botão */
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-projects-01 {
+    margin-top: 52px;
+}
+
+.card p {
+    font-size: 17px;
+}
+
+.card button {
+    margin: 30px auto;
+    color: white;
+    background-color: #755FD2;
+    width: 70%;
+    border-radius: 0.3em;
+}
+
+.card button:hover {
+    background-color: #5b49af;
+}
+
+.buttonHomeMobile {
+    background-color: #5b49af;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.buttonHomeMobile:hover {
+    background-color: #452eac;
+}

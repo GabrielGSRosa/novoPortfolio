@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
+
+:root{
+    --black-400: #191A1E;
+    --black-300: #292B33;
+    --white-400: #FEFEFF;
+    --bkg-color: #5b49af;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--black-300);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    font-style: none;
+    color: var(--white-400);
+}
+
+.bkPrincipal {
+    position: fixed;
+    width: 100%;
+    opacity: 50%;
+    z-index: -10;
+}
+
+button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--bkg-color); /* Cor do "ponteiro" da barra de rolagem */
+    border-radius: 6px; /* Cantos arredondados do "ponteiro" */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--black-300); /* Cor da área da barra de rolagem */
+  }
+  
+
+.primary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: var(--white-400);
+    width: 140vh;
+    height: 50px;
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+::before {
+    margin: 10px;
+    /* width: 200px; */
+}
+
+.buttonsBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 36px;
+}
+
+.buttonsBar button {
+    margin: 7px;
+}
+
+.buttonsBar button:hover {
+    color: #755FD2;
+}
+
+.buttonsBar button:nth-child(4) {
+    color: var(--white-400);
+    background-color: #755FD2;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.buttonsBar button:nth-child(4):hover {
+    background-color: #5b49af;
+}
+
+/*SVG*/
+
+.coffee {
+    margin: 50px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee svg{
+    height: 120px;
+    width: 120px;
+}
+
+
+/* MAIN */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px auto 24px;
+    color: var(--white-400);
+    font-weight: 300;
+}
+
+.firstP {
+    width: 340px;
+    border-radius: 20px;
+    background-color: grey;
+    text-align: center;
+    color:#FEFEFF;
+}
+
+.main span {
+    background-color: var(--black-300);
+    border-radius: 8px;
+}
+
+/*
+.line {
+    display: inline-block;
+    position: absolute;
+    width: 600px;
+    background-color: var(--bkg-color);
+    height: 15px;
+    border: none;
+    border-radius: 7px;
+    bottom: 180px;
+    opacity: 87%;
+}
+*/
+
+
+.title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.title span {
+    display: inline-block;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.mission {
+    margin: 10px;
+    width: 110vh;
+    text-align: center;
+}
+
+.missionMobile {
+    display: none;
+}
+
+.mission span {
+    color: #5642ad;
+}
+
+.buttons button {
+    color: white;
+    margin: 0 0.3rem;
+    height: 2.3rem;
+    width: 12.5rem;
+    border-radius: 5px;
+    border: solid 1px var(--bkg-color);
+}
+
+.buttons button:nth-child(1) {
+    background-color: var(--bkg-color);
+}
+
+.buttons button:hover {
+    background-color: #755FD2;
+}
+
+/* Analysis */
+
+.analysis {
+    border-top: 3px solid var(--white-400);
+    margin: 40px auto 24px;
+}
+
+/* .bar {
+    width: 100%;
+    margin: 27px 0;
+    border: 2px solid var(--white-400)
+}: */
+
+.analysis h1 {
+    color: var(--white-400);
+    text-align: center;
+    font-size: 48px;
+    margin-top: 25px;
+    padding-bottom: 38px;
+}
+
+.progress-container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: var(--black-300);
+    border-radius: 19px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    border-right: 2px solid var(--bkg-color);
+    border-left: 2px solid var(--bkg-color);
+  }
+
+  .progress-container h2 {
+    color: var(--white-400);
+    margin-left: 10px;
+  }
+
+  .progress-bar {
+    height: 6.8px;
+    width: 0;
+    background-color: #5b49af;
+    border-radius: 8px;
+  }
+
+  #html {
+    width: 90%;
+    background-color: #5b49af;
+  }
+
+  #css {
+    width: 77%;
+    background-color: #5b49af;
+  }
+
+  #git {
+    width: 16%;
+    background-color: #5b49af;
+  }
+
+  #bulmaCSS {
+    width: 82%;
+    background-color: #5b49af;
+  }
+
+  #javascript {
+    width: 60%;
+    background-color: #5b49af;
+  }
+
+  #javascript {
+    width: 12%;
+    background-color: #5b49af;
+  }
+
+  #react {
+    width: 24%;
+    background-color: #5b49af;
+  }
+
+  #sql {
+    width: 13%;
+    background-color: #5b49af;
+  }
+
+  #pbi {
+    width: 20%;
+    background-color: #5b49af;
+  }
+
+  #erpSenior {
+    width: 54%;
+    background-color: #5b49af;
+  }
+
+  #figma {
+    width: 34%;
+    background-color: #5b49af;
+  }
+
+/* Projetos */
+
+.projetos {
+    border-top: 3px solid var(--white-400);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloProjetos {
+    color: var(--white-400);
+    margin: 25px auto;
+}
+
+.tituloProjetos h1{
+    font-size: 48px;
+}
+
+.projectsContainer {
+    margin: 20px 20px 70px; /* Espaçamento entre containers */
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-around; /* Ou outro valor conforme necessário */
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinhamento central vertical */
+    text-align: center;
+    justify-content: space-between;
+    background-color: #5c49afb1;
+    color: white;
+    width: 10rem;
+    height: 14rem;
+    border-radius: 4%;
+}
+
+.card .titleP1 {
+    margin: 10px auto 7px;
+}
+
+
+.card h1 {
+    margin-bottom: 10px; /* Espaçamento inferior para o título */
+}
+
+.card p {
+    margin-bottom: 15px; /* Espaçamento inferior para o parágrafo */
+}
+
+.card button {
+    padding: auto;
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #5c49afb1; /* Cor do texto do botão */
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-projects-01 {
+    margin-top: 52px;
+}
+
+.card p {
+    font-size: 17px;
+}
+
+.card button {
+    margin: 30px auto;
+    color: white;
+    background-color: #755FD2;
+    width: 70%;
+    border-radius: 0.3em;
+}
+
+.card button:hover {
+    background-color: #5b49af;
+}
+
+.works:hover {
+    margin: auto;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #5642ad;
+}
+
+/* Certificates
+
+.certificates {
+    border-top: var(--white-400) solid 3px;
+}
+
+.titleCertificates h1 {
+    font-size: 48px;
+    padding-bottom: 38px;
+    text-align: center;
+    color: var(--white-400);
+}
+
+.certificatesNames {
+    color: var(--white-400);
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.certificate {
+    background-color: #5b49af;
+    margin: 10px;
+    height: 300px;
+}
+
+#cH1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+#cH2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+*/
+
+/* Redes Sociais */
+
+.redes {
+    border-top: 3px solid var(--white-400);
+}
+
+.containerRedes {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-400);
+}
+
+.containerRedes div {
+    margin: 30px;
+}
+
+.github{
+    align-items: center;
+    text-align: center;
+}
+
+.linkedin {
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+  /* Responsividade */
+
+  @media screen and (max-width:480px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav {
+        width: auto;
+    }
+
+    .bkPrincipal {
+        width: 90vw;
+    }
+
+    .buttonsBar {
+        display: none;
+    }
+/*
+    .main {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        width: 217px;
+    }
+*/
+    .title {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .firstP {
+        font-size: 18px;
+    }
+
+    .coffee {
+        display: none;
+    }
+
+    .mission {
+        display: none;
+    }
+
+    .missionMobile {
+        display: block;
+        margin: 20px 0 20px 0px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .missionMobile span {
+        color: var(--bkg-color);
+    }
+
+    .buttons {
+        width: 200px;
+    }
+
+    .buttons .work {
+        width: 93%;
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    .buttons .contactMe {
+        width: 93%;
+        margin-bottom: 10px;
+    }
+/*
+    .projetos {
+        border: solid 1px red;
+        width: 220px;
+    }
+*/
+    .projectsContainer {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        height: 630px;
+    }
+
+    #projects2 {
+        display: none;
+    }
+
+     .card:nth-child(3) {
+        display: none;
+    }
+
+    .card:nth-child(1) {
+        display: none;
+    } 
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 10rem;
+        height: 14rem;
+        margin-top: 12px;
+    }
+/*
+    .card .titleP1 {
+        font-size: 18px;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+*/
+}
+    
