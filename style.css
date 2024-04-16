@@ -208,25 +208,16 @@ nav {
     background-color: #755FD2;
 }
 
-/* Analysis */
-
 .analysis {
-    border-top: 3px solid var(--white-400);
-    margin: 40px auto 24px;
+    margin-bottom: 30px;
 }
 
-/* .bar {
-    width: 100%;
-    margin: 27px 0;
-    border: 2px solid var(--white-400)
-}: */
-
-.analysis h1 {
+.analysis h2 {
     color: var(--white-400);
     text-align: center;
-    font-size: 48px;
     margin-top: 25px;
     padding-bottom: 38px;
+    font-size: 28px;
 }
 
 .progress-container {
@@ -240,7 +231,7 @@ nav {
     border-left: 2px solid var(--bkg-color);
   }
 
-  .progress-container h2 {
+  .progress-container h3 {
     color: var(--white-400);
     margin-left: 10px;
   }
@@ -263,7 +254,7 @@ nav {
   }
 
   #git {
-    width: 27%;
+    width: 30%;
     background-color: #5b49af;
   }
 
@@ -273,7 +264,7 @@ nav {
   }
 
   #javascript {
-    width: 60%;
+    width: 75%;
     background-color: #5b49af;
   }
 
@@ -318,11 +309,11 @@ nav {
 
 .tituloProjetos {
     color: var(--white-400);
-    margin: 25px auto;
+    margin: 20px auto;
 }
 
 .tituloProjetos h1{
-    font-size: 48px;
+    font-size: 38px;
 }
 
 .projectsContainer {
@@ -556,6 +547,17 @@ nav {
         width: 220px;
     }
 */
+
+.analysis h2{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.progress-container {
+    max-width: 200px;
+  }
+
     .projectsContainer {
         display: flex;
         justify-content: center;
