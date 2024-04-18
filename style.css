@@ -93,7 +93,7 @@ nav {
 }
 
 .buttonsBar button:hover {
-    color: #755FD2;
+    color: #4d30cf;
 }
 
 .buttonsBar button:nth-child(4) {
@@ -353,18 +353,16 @@ nav {
 }
 
 .card button {
-    padding: auto;
     background-color: #fff; /* Cor de fundo do botão */
-    color: #5c49afb1; /* Cor do texto do botão */
+    color: #2b2545; /* Cor do texto do botão */
     border: none;
-    border-radius: 3px;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
 }
 
 #btn-projects-01 {
-    margin-top: 52px;
+    margin-top: 50px;
 }
 
 .card p {
